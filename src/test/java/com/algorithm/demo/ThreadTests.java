@@ -10,21 +10,37 @@ import org.apache.commons.logging.Log;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.util.Assert;
+import sun.misc.Unsafe;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicLong;
+import java.util.concurrent.locks.AbstractQueuedSynchronizer;
+import java.util.concurrent.locks.LockSupport;
+import java.util.concurrent.locks.ReentrantLock;
 
 @SpringBootTest
-class DemoApplicationTests {
-
+class ThreadTests {
+	private static final Unsafe unsafe = Unsafe.getUnsafe();
 	@Test
-	void findV()
+	void test_locksupport()
 	{
-		int index = SearchAlgorithm.binary_search(new int[]{1,6,13,22,36,65,98,106,222,333}, 106);
-		System.out.println("查找结果：" + index);
+		ThreadGroup a = new ThreadGroup("a");
+
+		LockSupportDemo demo = new LockSupportDemo();
+		demo.start();
+
+		LockSupport.unpark(demo);
+
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 	}
 
 	@Test

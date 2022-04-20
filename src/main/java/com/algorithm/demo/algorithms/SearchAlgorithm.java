@@ -1,4 +1,4 @@
-package com.algorithm.demo;
+package com.algorithm.demo.algorithms;
 
 /**
  * 查找算法
@@ -29,6 +29,4 @@ public class SearchAlgorithm {
 
         return -1;
     }
-
-
 }
