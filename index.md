@@ -18,9 +18,6 @@ First
 			<td>
 				<a href="https://github.com/TheAlgorithms/Java">Algorithms</a>
 			</td>
-		</tr>
-		
-		<tr>
 			<td>
 				<a href="https://github.com/PacktPublishing/40-Algorithms-Every-Programmer-Should-Know">40-Algorithms</a>
 			</td>
