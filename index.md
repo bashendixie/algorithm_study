@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## 数据结构和算法
 
 You can use the [editor on GitHub](https://github.com/bashendixie/algorithm_study/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
