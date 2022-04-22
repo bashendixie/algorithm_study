@@ -27,6 +27,9 @@ First
 			<td>
 				<a href="https://leetcode-cn.com/">leetcode</a>
 			</td>
+			<td>
+				<a href="https://github.com/egonschiele/grokking_algorithms">算法图解</a>
+			</td>
 		</tr>
 	</tbody>
 </table>
