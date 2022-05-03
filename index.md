@@ -31,5 +31,12 @@ First
 				<a href="https://github.com/egonschiele/grokking_algorithms" target="_blank">算法图解</a>
 			</td>
 		</tr>
+		<tr>
+			<td><a href="https://www.programiz.com/dsa" target="_blank">一个教程1</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://www.tutorialspoint.com/data_structures_algorithms/index.htm" target="_blank">一个教程2</a></td>
+		</tr>
+		
 	</tbody>
 </table>
