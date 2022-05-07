@@ -32,6 +32,8 @@ First
 			</td>
 		</tr>
 		<tr>
+			<td><a href="http://chihaozhang.com/teaching/AA2019spring/" target="_blank">高级算法</a></td>
+			
 			<td><a href="https://www.programiz.com/dsa" target="_blank">一个教程1</a></td>
 		</tr>
 		<tr>
