@@ -21,6 +21,12 @@ public class AlgorithmTests {
     @Test
     void bubble_sort()
     {
+        System.out.println("存储的2进制值1："+Integer.toBinaryString(int1));
+        System.out.println("存储的2进制值2："+Integer.toBinaryString(int2));
+
+        int v = 10000;
+        byte vb = (byte)10000;
+
         //Integer[] integers = {4, 23, 6, 78, 1, 54, 231, 9, 12};
         Integer[] integers = {4, 23, 22, 21, 20, 19, 231, 9, 12};
         Integer[] sorts = SortAlgorithm.bubble_sort(integers);
